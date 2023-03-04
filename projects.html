@@ -25,9 +25,10 @@
       <button type="button" class="collapsible">What is BentoBox?</button>
       <div class="content">
       <section> 
-       <p>BentoBox is a restaurant management platform that helps restaurant owners and operators manage their digital presence and operations. With BentoBox, restaurants can create, customize, and manage their websites and more.</p>
+       <p>BentoBox is a restaurant management platform that helps restaurant owners and operators manage their digital presence and operations. With BentoBox, restaurants can create, customize, and manage their websites and more. <strong>(Was not the Creator of BentoBox)</strong> </p>
     <p>Website was already made I just added the pictures.</p>
         <hr/>
+      </section>
     
    
         <div class="footer"></div> 
@@ -35,5 +36,21 @@
 
 </article>
 </main>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 </body>
 </html>

@@ -132,7 +132,33 @@ object-fit: contain;
  }
 
 /* project page */
-Farrs Gallery {
+
+.collapsible2  {
+  background-color: #060F1F;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+}
+
+.active, .collapsible2:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #060F1F;
+  color: whitesmoke;
+  font-size: 25px;
+
+}
+ .target {
   color: #f0b7b3;
 }
 

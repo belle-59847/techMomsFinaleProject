@@ -86,7 +86,7 @@ object-fit: contain;
   h2 {
     font-size: 30px;
     text-decoration: underline;
-    color: #f0b7b3;
+    color:#f0b7b3;
   }
   p1 {
     font-size: 25px;
@@ -121,6 +121,9 @@ object-fit: contain;
     color: whitesmoke;
     font-size: 25px;
 
+  }
+  strong1 {
+color: aquamarine;
   }
   footer {
     position: fixed;

@@ -61,26 +61,34 @@ a:hover {
   font-size: 150%;
 }
 /* Getting to know me pic */
+
 .baby photo, img {
-  width: 150px;
+  width: 400px;
+  height: 300px;
   border-radius: 6px;
   padding: 5px;
   object-fit: contain;
   
+  
 }
 .grenada map, img {
-width: 150px;
+width: 400px;
+height: 300px;
 border-radius: 6px;
-padding: 5px;
 object-fit: contain;
+
+
 }
 
 .family picture, img {
-width: 150px;
+width: 400px;
+height: 300px;
 border-radius: 6px;
 padding: 5px;
 object-fit: contain;
+
 }
+
 .row1 {
   display: flex;
 }
@@ -90,7 +98,7 @@ object-fit: contain;
 }
   
 
-/* Getting to Know Me */
+/* Getting to Know Me, Love Making Desserts */
 
   h2 {
     font-size: 30px;
@@ -112,6 +120,25 @@ object-fit: contain;
   .column2 {
     flex: 33.33%;
     padding: 5px;
+  }
+  .Macroons, img {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+  }
+  .Strawberry Cheesecake Pretzel, img {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    text-align: center; 
+  }
+  .Poppy Seed Roulade, img {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+
   }
 
   /* Bearded Dragon */

@@ -60,7 +60,7 @@ a:active {
 a:hover {
   font-size: 150%;
 }
-
+/* Getting to know me pic */
 .baby photo, img {
   width: 150px;
   border-radius: 6px;
@@ -103,6 +103,15 @@ object-fit: contain;
   }
   p2 {
     font-size: 25px;
+  }
+
+  /* Love Making Desserts pic */
+  .row2 {
+    display: flex;
+  }
+  .column2 {
+    flex: 33.33%;
+    padding: 5px;
   }
 
   /* Bearded Dragon */

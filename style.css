@@ -88,17 +88,17 @@ padding: 5px;
 object-fit: contain;
 
 }
-
-.row1 {
+/* pictures */
+.row1, .row2, .row3 {
   display: flex;
 }
-.column1 {
+.column1, .column2, .column3 {
   flex: 33.33%;
   padding: 5px;
 }
   
 
-/* Getting to Know Me, Love Making Desserts */
+/* Getting to Know Me, Love Making Desserts, Puzzles */
 
   h2 {
     font-size: 30px;
@@ -113,16 +113,7 @@ object-fit: contain;
     font-size: 25px;
   }
 
-  /* Love Making Desserts pic */
-  .row2 {
-    display: flex;
-    float: left;
-  }
-  .column2 {
-    flex: 33.33%;
-    padding: 5px;
-    float: left;
-    }
+  /* Love Making Desserts*/
   
     .desc {
       text-align: center;
@@ -176,7 +167,7 @@ object-fit: contain;
 
   }
   strong1 {
-color: aquamarine;
+  color: aquamarine;
   }
 
   footer {

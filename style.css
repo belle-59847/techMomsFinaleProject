@@ -89,16 +89,27 @@ object-fit: contain;
 
 }
 /* pictures display */
-.row1, .row2, .row3 {
+.row1, .row2, .row3, .row4{
   display: flex;
 }
-.column1, .column2, .column3 {
+.column1, .column2, .column3, .column4 {
   flex: 33.33%;
   padding: 5px;
 }
-  
+  /* amazing roommates */
+  .decorate cake, img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+  }
 
-/* Getting to Know Me, Love Making Desserts, Puzzles */
+  .dance party, img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+/* Getting to Know Me, Love Making Desserts, Puzzles, amazing roommates */
 
   h2 {
     font-size: 30px;

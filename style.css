@@ -126,30 +126,39 @@ object-fit: contain;
   .Macroons, img {
     width: 400px;
     height: 300px;
+    object-fit: contain;
     
   }
   .Strawberry Cheesecake Pretzel, img {
     width: 400px;
     height: 300px;
+    object-fit: contain;
     
   }
   .Poppy Seed Roulade, img {
     width: 400px;
     height: 300px;
+    object-fit: contain;
     
 
   }
   /* puzzles */
-  .fan puzzle 1000, img {
-
-  }
-  
-  .symmetry puzzle 1000, img {
-
+  .fan puzzle, img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
   }
 
-.flower map 1000, img {
+  .symmetry puzzle, img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+  }
 
+.flower map, img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
 }
   
 

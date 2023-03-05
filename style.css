@@ -9,6 +9,15 @@ body {
   margin: 5%;
   
 }
+.footer {
+  background: #102F44;
+  border-top: 1px solid #555;
+  text-align: center;
+  padding: 32px;
+}
+
+
+
 
 .center {
     display: block;
@@ -174,6 +183,10 @@ color: aquamarine;
 .fa-brands fa-square-facebok {
     size: fa-10x;
     margin: 5% 0;
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
    
 
 }
@@ -182,4 +195,6 @@ color: aquamarine;
     padding: 60px;
 
 }
+
+
 

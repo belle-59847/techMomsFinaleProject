@@ -10,8 +10,8 @@ body {
   
 }
 .footer {
-  background: #102F44;
-  border-top: 1px solid #555;
+  background: #f0b7b3;
+  border-top: 1px solid #102F44;
   text-align: center;
   padding: 32px;
 }
@@ -116,28 +116,36 @@ object-fit: contain;
   /* Love Making Desserts pic */
   .row2 {
     display: flex;
+    float: left;
   }
   .column2 {
     flex: 33.33%;
     padding: 5px;
-  }
+    float: left;
+    }
+  
+    .desc {
+      text-align: center;
+      padding: 15px;
+      border: 5px solid #102F44;
+      background-color: #f0b7b3;
+      color: #060F1F
+    }
+
   .Macroons, img {
     width: 400px;
     height: 300px;
-    padding: 15px;
-    text-align: center;
+    
   }
   .Strawberry Cheesecake Pretzel, img {
     width: 400px;
     height: 300px;
-    padding: 15px;
-    text-align: center; 
+    
   }
   .Poppy Seed Roulade, img {
     width: 400px;
     height: 300px;
-    padding: 15px;
-    text-align: center;
+    
 
   }
 
@@ -170,6 +178,7 @@ object-fit: contain;
   strong1 {
 color: aquamarine;
   }
+
   footer {
     position: fixed;
     left: 0;

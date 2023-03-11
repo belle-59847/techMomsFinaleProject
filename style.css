@@ -1,6 +1,7 @@
 body {
   margin: 5%;
-  
+  line-height: 1.5;
+  background-color: #f7f7ff;
 }
  header {
   padding: 80px;
@@ -79,6 +80,16 @@ a:hover {
   border-radius: 5px;
   padding: 0.75em 1.5em;
 }
+
+
+/* article */
+
+article {
+  
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+  margin-bottom: 20px;
+}
 /* Getting to know me pic */
 
 .baby photo, img {
@@ -137,6 +148,7 @@ object-fit: contain;
   }
   p1 {
     font-size: 25px;
+    
     
     
   }
@@ -294,5 +306,47 @@ object-fit: contain;
   display: inline-block;
  
 }
+/* form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 

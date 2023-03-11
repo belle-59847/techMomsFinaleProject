@@ -272,16 +272,14 @@ object-fit: contain;
 .fa-square-facebok {
     size: fa-10x;
     margin: 5% 0;
-    list-style: none;
-    display: inline;
-    margin-left: 0 !important;
-    padding: 0;
+    
    
 
 }
 .fa-linkedin {
     size: 40px;
     padding: 60px;
+    
 
 }
 .fa-brands {

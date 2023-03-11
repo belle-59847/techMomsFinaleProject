@@ -10,11 +10,19 @@ body {
   margin: 5%;
   
 }
+/* footer */
 .footer {
   background: #102F44;
   border-top: 3px solid #f0b7b3;
   text-align: center;
   padding: 32px;
+}
+.footer p {
+  margin: 0;
+  color: #f0b7b3;
+}
+.footer p:last-child {
+  margin-bottom: 0;
 }
 
 

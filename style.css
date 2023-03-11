@@ -149,12 +149,8 @@ object-fit: contain;
   p1 {
     font-size: 25px;
     
-    
-    
   }
-  p2 {
-    font-size: 25px;
-  }
+  
 
   /* Love Making Desserts*/
   
@@ -276,17 +272,12 @@ object-fit: contain;
   color: #f0b7b3;
 }
 
-
-
-
-
  /* contact page */
 .fa-square-facebok {
     size: fa-10x;
     margin: 5% 0;
     
-   
-
+  
 }
 .fa-linkedin {
     size: 40px;
@@ -310,31 +301,31 @@ object-fit: contain;
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #f0b7b3;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #102F44;
+  color: #7c90a0;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #f0b7b3;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #060F1F;
   padding: 10px;
 }
 
-.column {
+.column5 {
   float: left;
   width: 50%;
   margin-top: 6px;
@@ -342,10 +333,13 @@ input[type=submit]:hover {
 }
 
 
-.row:after {
+.row5:after {
   content: "";
   display: table;
   clear: both;
+}
+label {
+  color: #7c90a0;
 }
 
 

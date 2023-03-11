@@ -298,7 +298,7 @@ object-fit: contain;
  
 }
 /* form */
-input[type=text], select, textarea {
+input[type=text], textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #f0b7b3;
@@ -319,10 +319,11 @@ input[type=submit]:hover {
   background-color: #f0b7b3;
 }
 
-.container {
+.container3 {
   border-radius: 5px;
   background-color: #060F1F;
   padding: 10px;
+  color:#7c90a0
 }
 
 .column5 {
@@ -334,12 +335,12 @@ input[type=submit]:hover {
 
 
 .row5:after {
-  content: "";
+  content: "" ;
   display: table;
   clear: both;
 }
 label {
-  color: #7c90a0;
+  
 }
 
 

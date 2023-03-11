@@ -60,7 +60,12 @@ a:-webkit-any-link {
   display: inline;
   color:#7c90a0;
   width: 33.33%;
-  
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: all .2s;
 
 }
 a:active {
@@ -68,6 +73,10 @@ a:active {
 }
 a:hover {
   font-size: 150%;
+  background-color: #060F1F;
+  color: #f0b7b3;
+  border-radius: 5px;
+  padding: 0.75em 1.5em;
 }
 /* Getting to know me pic */
 

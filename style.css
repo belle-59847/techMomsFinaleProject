@@ -316,14 +316,19 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #f0b7b3;
+  color: #f0b7b3;
 }
 
+p3 {
+  font-size: 20px ;
+
+}
 .container3 {
   border-radius: 5px;
   background-color: #060F1F;
   padding: 10px;
-  color:#7c90a0
+  color:#7c90a0;
+  
 }
 
 .column5 {
@@ -339,8 +344,11 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
-label {
-  
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 

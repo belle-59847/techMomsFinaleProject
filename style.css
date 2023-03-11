@@ -8,8 +8,11 @@ body {
   background: #102F44;
   color: white; /* white text color */
   margin: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   
 }
+
 /* footer */
 .footer {
   background: #102F44;
@@ -24,8 +27,6 @@ body {
 .footer p:last-child {
   margin-bottom: 0;
 }
-
-
 
 
 .center {
@@ -268,7 +269,7 @@ object-fit: contain;
 
 
  /* contact page */
-.fa-brands fa-square-facebok {
+.fa-square-facebok {
     size: fa-10x;
     margin: 5% 0;
     list-style: none;
@@ -278,11 +279,22 @@ object-fit: contain;
    
 
 }
-.fa-brands fa-linkedin {
+.fa-linkedin {
     size: 40px;
     padding: 60px;
 
 }
-
+.fa-brands {
+  padding: 5px;
+  margin: 2px;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+  display: inline-block;
+ 
+}
 
 

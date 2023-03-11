@@ -155,25 +155,25 @@ object-fit: contain;
     
 
   }
-  /* puzzles */
-  .fan img {
+  /* puzzles
+  /* .fan {
     width: 400px;
     height: 300px;
     object-fit: contain;
   }
 
-  .symmetry img {
+  .symmetry {
     width: 400px;
     height: 300px;
     object-fit: contain;
   }
 
-.flower map, img {
+.flower {
   width: 400px;
   height: 300px;
   object-fit: contain;
 }
-  
+   */
 
   /* Bearded Dragon */
 .collapsible  {
